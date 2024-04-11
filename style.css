@@ -68,9 +68,13 @@ a {
     text-decoration: none;
     color: var(--neutral-black);
 }
-a:hover{
+a:hover {
     color: var(--primary-yellow);
     }
+
+main:hover {
+    box-shadow: .75rem .75rem var(--neutral-black);
+}
 
 .description {
     color: var(--neutral-grey);
